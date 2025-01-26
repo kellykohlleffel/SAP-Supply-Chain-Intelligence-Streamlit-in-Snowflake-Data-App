@@ -112,6 +112,9 @@ The application logic is implemented in [`streamlit_in_snowflake.py`](./files/st
 - Material Usage
 - Process Efficiency
 
+### Vendor Selection:
+- Perform analysis **across all vendors** or filter by a **specific vendor** for detailed insights.
+
 ### Interactive Metrics Dashboard:
 - Display key metrics using `st.metric`.
 - Visualize purchase order data and supply chain performance.
