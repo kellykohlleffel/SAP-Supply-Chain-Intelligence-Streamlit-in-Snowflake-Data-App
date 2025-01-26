@@ -3,6 +3,9 @@
 ## Overview
  The **SAP Supply Chain Intelligence Data Application** combines **Fivetran**, **Snowflake**, **dbt**, **Streamlit**, and **Gen AI** (powered by **Snowflake Cortex**) to deliver insights into SAP supply chain and purchase order data. This application extracts raw data from SAP HANA, transforms it into Generative AI-ready formats, and enables Gen AI-powered analysis through an interactive data application.
 
+
+![Streamlit Data App](images/streamlit_app.png)
+
 ---
 
 ## Data Flow
@@ -91,6 +94,10 @@ SELECT
     snowflake.cortex.EMBED_TEXT_1024('snowflake-arctic-embed-l-v2.0', po_information) AS PO_EMBEDDINGS
 FROM HOL_DATABASE.DHSAPPROD_DHSAPHANA_BI.PO_DATA_SINGLE_STRING;
 ```
+**Transformation Output**:
+
+![Streamlit Data App](images/transformations.png)
+
 # Streamlit Application
 
 ## Application Code
