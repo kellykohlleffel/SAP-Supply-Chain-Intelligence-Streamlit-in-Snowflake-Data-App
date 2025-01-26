@@ -1,0 +1,2 @@
+# SAP Supply Chain Intelligence Streamlit in Snowflake Data App
+ The SAP Supply Chain Intelligence Application combines Fivetran, Snowflake, dbt, Streamlit, and Gen AI (powered by Snowflake Cortex) to deliver insights into SAP supply chain and purchase order data. This application extracts raw data from SAP HANA, transforms it into Generative AI-ready formats, and enables Gen AI-powered analysis through an interactive data application.
