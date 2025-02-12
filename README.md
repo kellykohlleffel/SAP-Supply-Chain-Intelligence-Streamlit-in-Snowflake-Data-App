@@ -431,7 +431,7 @@ def main():
 
     # Page title and description
     st.title("🔍 SAP Supply Chain Intelligence")
-    st.write("Welcome to the AI-powered SAP supply chain analysis data application. This app is designed to provide insightful analysis on SAP supply chain and purchase order data using Snowflake Cortex and Gen AI.")
+    st.write("Welcome to the Fivetran and Snowflake powered SAP supply chain analysis data application. This app is designed to provide insightful analysis on SAP supply chain and purchase order data using Snowflake Cortex and Gen AI.")
 
     # Sidebar Content
     with st.sidebar:
