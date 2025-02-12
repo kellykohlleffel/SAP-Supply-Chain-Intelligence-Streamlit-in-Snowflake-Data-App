@@ -454,7 +454,7 @@ def main():
 
         # Analysis Type Selection
         analysis_type = st.selectbox("Analysis Type", ANALYSIS_TYPES)
-        selected_model = st.selectbox("LLM Model", MODELS)
+        selected_model = st.selectbox("Cortex Model", MODELS)
 
     # Sidebar caption and logo
     st.sidebar.caption("""This Gen AI application uses **Snowflake Cortex** which provides instant access to industry-leading large language models including Claude, Llama, and Snowflake Arctic that have been trained by researchers at Anthropic, Meta, Mistral, Google and Snowflake.""")
