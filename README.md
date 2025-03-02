@@ -8,7 +8,7 @@ The **SAP Supply Chain Intelligence Gen AI Data Application** combines **Fivetra
 ## Data Flow
 
 ### 1. **Bronze Layer**: Raw Data Ingestion
-- **Source**: SAP HANA
+- **Source**: SAP EPP on HANA
 - **Ingestion Tool**: Fivetran's **Automated Data Movement** platform using the SAP ERP on HANA connector
 - **Raw Tables**: Data is ingested into the `HOL_DATABASE.DHSAPHANA_SAPABAP1` schema
 
